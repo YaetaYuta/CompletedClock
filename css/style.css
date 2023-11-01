@@ -1,0 +1,94 @@
+body{
+    background-color: antiquewhite;
+}
+#time {
+    text-align: center;
+    font-family:fantasy;
+    letter-spacing: 10px;
+}
+#ampm{
+    text-align: center;
+    font-family:fantasy;
+    letter-spacing: 10px;
+    color: rgb(255, 0, 204);
+}
+.boxTable{
+    margin: auto;
+}
+.box1 {
+    margin-right: 300px;
+    width        : 100px;
+    height       : 300px;
+    border-radius: 30%;
+    border: 3px solid black;
+    background   : linear-gradient(to bottom, #99ccff, #0059b3);
+}
+.box2 {
+    margin-right: 300px;
+    width        : 100px;
+    height       : 300px;
+    border-radius: 30%;
+    border: 3px solid black;
+    background   : linear-gradient(to bottom, #9642f5, #e541b4);
+}
+.box3 {
+    margin       : auto;
+    width        : 100px;
+    height       : 300px;
+    border-radius: 30%;
+    border: 3px solid black;
+    background   : linear-gradient(to bottom, #eef0f1, #46ff1c);
+}
+table{
+    padding: 1rem 7rem;
+    border: 5px dashed rgb(243, 188, 117);
+}
+.switchArea{
+    margin-top: 30px;
+    text-align : center;
+}
+.selectList{
+    text-align: center;
+}
+.party {
+    animation: party 0.8s infinite ;
+}
+@keyframes party {
+0% {
+    background-color: rgb(255, 78, 143);
+}
+25%{
+    background-color: #9f0f7e;
+}
+50% {
+    background-color: rgb(255, 0, 204);
+}
+75%{
+    background-color: #9f0f7e;
+}
+
+100%{
+    background-color: rgb(255, 78, 143);
+}
+}
+.calm {
+    animation: calm 0.8s infinite ;
+}
+@keyframes calm {
+0% {
+    background-color: rgb(255, 220, 125);
+}
+25%{
+    background-color: #dee895;
+}
+50% {
+    background-color: rgb(241, 224, 147);
+}
+75%{
+    background-color: #dee895;
+}
+
+100%{
+    background-color: rgb(255, 220, 125);
+}
+}
